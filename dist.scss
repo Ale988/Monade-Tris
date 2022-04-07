@@ -1,0 +1,70 @@
+$font-stack: Helvetica sans-serif;
+$primary-color: #333;
+$menu-color: #324;
+$font-color: #FFFF;
+$font-size: 2rem;
+%center-shared {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    color: $font-color;
+    font: $font-stack;
+    .zero {
+        background-color: $menu-color;
+        grid-column: 1 / 4;
+        @extend %center-shared;
+        gap: 30px;
+    }
+    .one {
+        background-color: $primary-color;
+        @extend %center-shared;
+        font-size: $font-size;
+    }
+    .two {
+        background-color: $primary-color;
+        @extend %center-shared;
+        font-size: $font-size;
+    }
+    .three {
+        background-color: $primary-color;
+        @extend %center-shared;
+        font-size: $font-size;
+    }
+    .four {
+        background-color: $primary-color;
+        @extend %center-shared;
+        font-size: $font-size;
+    }
+    .five {
+        background-color: $primary-color;
+        @extend %center-shared;
+        font-size: $font-size;
+    }
+    .six {
+        background-color: $primary-color;
+        @extend %center-shared;
+        font-size: $font-size;
+    }
+    .seven {
+        background-color: $primary-color;
+        @extend %center-shared;
+        font-size: $font-size;
+    }
+    .eight {
+        background-color: $primary-color;
+        @extend %center-shared;
+        font-size: $font-size;
+    }
+    .nine {
+        background-color: $primary-color;
+        @extend %center-shared;
+        font-size: $font-size;
+    }
+}

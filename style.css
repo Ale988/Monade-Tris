@@ -1,0 +1,57 @@
+.wrapper .nine, .wrapper .eight, .wrapper .seven, .wrapper .six, .wrapper .five, .wrapper .four, .wrapper .three, .wrapper .two, .wrapper .one, .wrapper .zero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: repeat(4, 100px);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  color: #FFFF;
+  font: Helvetica sans-serif;
+}
+.wrapper .zero {
+  background-color: #324;
+  grid-column: 1/4;
+  gap: 30px;
+}
+.wrapper .one {
+  background-color: #333;
+  font-size: 2rem;
+}
+.wrapper .two {
+  background-color: #333;
+  font-size: 2rem;
+}
+.wrapper .three {
+  background-color: #333;
+  font-size: 2rem;
+}
+.wrapper .four {
+  background-color: #333;
+  font-size: 2rem;
+}
+.wrapper .five {
+  background-color: #333;
+  font-size: 2rem;
+}
+.wrapper .six {
+  background-color: #333;
+  font-size: 2rem;
+}
+.wrapper .seven {
+  background-color: #333;
+  font-size: 2rem;
+}
+.wrapper .eight {
+  background-color: #333;
+  font-size: 2rem;
+}
+.wrapper .nine {
+  background-color: #333;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
